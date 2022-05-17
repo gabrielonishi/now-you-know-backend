@@ -78,24 +78,24 @@ WSGI_APPLICATION = 'nowyouknow.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'nowyouknow',
-        'USER': 'nowyouknowuser',
-        'PASSWORD': 'nowyouknowsenha',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-
 # DATABASES = {
-#     'default': dj_database_url.config(
-#         default='postgresql://localhost/nowyouknow?user=nowyouknowuser&password=nowyouknowsenha',
-#         conn_max_age=600,
-#         ssl_require=not DEBUG
-#     )
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'nowyouknow',
+#         'USER': 'nowyouknowuser',
+#         'PASSWORD': 'nowyouknowsenha',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
 # }
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default='postgresql://localhost/<NAME>?user=<USER>&password=<PASSWORD>',
+        conn_max_age=600,
+        ssl_require=not DEBUG
+    )
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
