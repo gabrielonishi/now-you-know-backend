@@ -1,2 +1,2 @@
 release: python ./nowyouknow/manage.py runserver
-web: gunicorn morning-headland-59657.wsgi
+web: gunicorn serene-peak-43585.wsgi
