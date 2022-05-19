@@ -2,6 +2,10 @@
 
 Gabriel Onishi e Lucas Oliveira
 
+<h2>Acesso remoto via</h2>
+https://serene-peak-43585.herokuapp.com/ <br>
+<b>Nota</b>: É possível que o seu navegador/provedor de internet bloqueie o backend por razões de segurança. Caso isso aconteça, tente alimentar a internet via roteador do celular
+
 <h2>Imports</h2>
 <ul>
 <li>Django v4.0.4</li>
