@@ -15,10 +15,11 @@ Gabriel Onishi e Lucas Oliveira
 </ul>
 
 <h2>Para rodar o back-end</h2>
+
 ```
 $ ./nowyouknow> python manage.py runserver
 ```
 
 <h2>Endpoints Utilizadas</h2>
- - Para publicar uma tentativa (POST): /api/nome_do_artista/tries
+ - Para publicar uma tentativa (POST): /api/nome_do_artista/tries<br>
  - Para ver informações do artista (GET): /api/nome_do_artista
