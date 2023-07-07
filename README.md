@@ -8,11 +8,11 @@ O frontend foi construído com React e o backend utiliza Django e uma API públi
 
 ## Como rodar
 
-<h2>Acesso remoto via</h2>
-https://serene-peak-43585.herokuapp.com/ <br>
-<b>Nota</b>: É possível que o seu navegador/provedor de internet bloqueie o backend por razões de segurança. Caso isso aconteça, tente alimentar a internet via roteador do celular
+**Acesso remoto via:** https://serene-peak-43585.herokuapp.com/ <br>
 
-<h2>Imports</h2>
+❗É possível que o seu navegador/provedor de internet bloqueie o backend por razões de segurança. Caso isso aconteça, tente alimentar a internet via roteador do celular
+
+### Ferramentas utilizadas
 <ul>
 <li>Django v4.0.4</li>
 <li>Django REST Framework v3.13.1</li>
@@ -24,12 +24,12 @@ https://serene-peak-43585.herokuapp.com/ <br>
 <li>dj-database-url v0.5.0</li>
 </ul>
 
-<h2>Para rodar o back-end</h2>
+### Para rodar localmente
 
 ```
 $ ./nowyouknow> python manage.py runserver
 ```
 
-<h2>Endpoints Utilizadas</h2>
+### Endpoints
  - Para publicar uma tentativa (POST): /api/nome_do_artista/tries<br>
  - Para ver informações do artista (GET): /api/nome_do_artista
